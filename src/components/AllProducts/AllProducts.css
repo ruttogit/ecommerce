@@ -3,3 +3,7 @@
     padding: 1rem 2rem;
 }
 
+.products{
+    place-items: center;
+    justify-content: center;
+}
