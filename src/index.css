@@ -12,6 +12,10 @@ body{
   border-color: #FF5A03;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 h1, h2, h3, h4, h5{
   color: #FF5A03;
 }
@@ -41,6 +45,7 @@ button:hover{
 
 
 .popup{
+  background: #ffffff;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   width: 300px;
   height: 50px;
@@ -54,6 +59,7 @@ button:hover{
   justify-content: center;
   animation: slideIn 1s ease-in ;
   font-weight: 600;
+  border-radius: 5px;
 }
 
 .close{

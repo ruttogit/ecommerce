@@ -66,7 +66,7 @@ function App() {
   
     if (itemExists) {
       // Show popup if already in the cart
-      setPopupMessage('Already in cart');
+      setPopupMessage('Added to cart');
       setPopupVisible(true);
     } else {
       // Add the item to the cart if it doesn't exist

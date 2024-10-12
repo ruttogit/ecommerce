@@ -1,11 +1,11 @@
 .hero{
     margin: 10rem 2rem;
-    padding: 10% 4rem 0 4rem;
+    padding: 10% 4rem 10% 4rem;
     background-image: url('../../images/hero-pic.png');
     /* background-position:center; */
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    /* height: 100vh; */
     color: #ffffff;
     border-radius: 16px;
 }
@@ -60,7 +60,7 @@
 }
 
 @media (max-width: 600px){
-    
+
     .hero{
         height: fit-content;
         padding: 3rem 1rem;
