@@ -91,6 +91,10 @@
 
 
 @media (max-width: 600px){
+
+    .about{
+        padding: 1rem 2rem;
+    }
     .about-us p{
         font-size: 15px;
     }
