@@ -72,7 +72,7 @@ function App() {
       // Add the item to the cart if it doesn't exist
       setCart([...cart, { ...item, quantity: 1 }]);
       
-      setPopupMessage('Item already added to cart');
+      setPopupMessage('Already added to Cart');
       setPopupVisible(true);
       
     }
