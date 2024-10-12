@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background: #ffffff;
+  font-family: "Inter", system-ui;
+  color: #000000;
+  border-color: #FF5A03;
+}
+
+h1, h2, h3, h4, h5{
+  color: #FF5A03;
+}
+
+
+
+
+
+li{
+  list-style: none;
+  
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+button{
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+
+
+.popup{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  width: 300px;
+  height: 50px;
+  position: fixed;
+  top: 5rem;
+  right: 5rem;
+  color: red;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: slideIn 1s ease-in ;
+  font-weight: 600;
+}
+
+.close{
+  position: absolute;
+  top: 8px;
+  right: 20px;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: #FF5A03;
+  
+}
+
+
+@keyframes slideIn {
+  0%{
+    right: -30rem;
+    opacity: 0;
+  }100%{
+    opacity: 1;
+    right: 20px;
+
+  }
+}
+
+
+
+.space-top{
+  margin-top: 10rem;
+}

@@ -1,0 +1,133 @@
+.footer{
+    padding: 3rem 4rem;
+    background: #000;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+}
+
+.footer ul a{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.footer-left p{
+    font-size: 20px;
+}
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social-icons .icon{
+    font-size: 30px;
+}
+
+/* .social-icons img{
+    width: 30px;
+} */
+/* .social-icons:last-child{
+    width: 15px;
+} */
+
+.footer-center h3{
+    margin-bottom: 2rem;
+}
+
+.footer-center ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-right h3{
+    margin-bottom: 2rem;
+}
+
+.footer-right ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (max-width: 950px){
+    .footer a{
+        font-size: 18px;
+    }
+
+    .footer-left p{
+        font-size: 18px;
+    }
+
+    .footer-center ul, .footer-right ul{
+        gap: 1rem;
+    }
+
+    .footer-center ul a, .footer-right ul a{
+        font-size: 18px;
+    }
+
+    /* .social-icons img{
+        width: 25px;
+    } */
+
+    .social-icons .icon{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 600px){
+    .footer{
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+
+    .footer-left .social-icons{
+        align-items: center;
+    }
+    .footer-text{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-left .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    .social-icons{
+        align-items: center;
+        margin-left: 30%;
+    }
+
+    /* .social-icons .icon{
+        font-size: 20px;
+    } */
+
+    .footer-center, .footer-right{
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .footer-center ul a, .footer-right ul a{
+        font-size: 16px;
+    }
+
+    .footer-right h3, .footer-center h3{
+        margin-bottom: 1rem;
+    }
+}

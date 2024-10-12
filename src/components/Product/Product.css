@@ -1,0 +1,151 @@
+.product-wrapper{
+    margin-top: 7rem;
+    padding: 0 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 3rem;
+}
+
+.product-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-left img{
+    width: 300px;
+}
+
+.products-buttons{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-to-cart-btn{
+    background: #FF5A03;
+    color: #ffffff;
+    width: fit-content;
+    padding: 0.5rem 2rem;
+    font-size: 20px;
+    border: none;
+}
+
+.go-back-btn{
+    background: transparent;
+    padding: 0.5rem 2rem;
+    font-size: 20px;
+    width: fit-content;
+}
+
+
+.product-right{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.product-right h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.product-right p{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dividor{
+    width: 100%;
+    height: 1px;
+    background: #000000;
+}
+
+.detail h4{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.was{
+    text-decoration: line-through;
+}
+
+@media screen and (max-width: 950px){
+
+    .product-wrapper{
+        margin-top: 7rem;        /* height: 100vh; */
+        padding: 0 2rem;
+
+    }
+    .product-wrapper{
+        grid-template-columns: 1fr;
+    }
+
+    .product-left img{
+        width: 250px;
+    }
+
+    .product-right h2{
+        font-size: 25px;
+    }
+
+    .detail h4{
+        font-size: 20px;
+    }
+
+    .product-right p{
+        font-size: 1.2rem;
+
+    }
+
+    .product-right span{
+        font-size: 15px;
+    }
+
+
+    .add-to-cart-btn{
+        padding: 0.4rem 1rem;
+        font-size: 17px;
+    }
+    
+    .go-back-btn{
+        padding: 0.4rem 1rem;
+        font-size: 17px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px){
+    .product-right h2{
+        font-size: 20px;
+    }
+    .product-left img{
+        width: 150px;
+    }
+    .product-right{
+        padding: 1rem 2rem;
+    }
+
+    .add-to-cart-btn{
+        padding: 0.2rem 0.8rem;
+        font-size: 14px;
+    }
+    
+    .go-back-btn{
+        padding: 0.2rem 0.8rem;
+        font-size: 14px;
+    }
+
+}

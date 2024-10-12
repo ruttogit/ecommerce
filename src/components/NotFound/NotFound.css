@@ -1,0 +1,18 @@
+.notfound{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 10rem);
+    flex-direction: column;
+}
+
+.notfound h1{
+    font-size: 70px;
+
+}
+
+.call-to-act{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,107 @@
+.about{
+    margin-top: 8rem;
+    padding: 1rem 4rem;
+
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+                    rgba(0, 0, 0, 0.7)),
+                        url("/public/about.jpg");
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+    border-radius: 16px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about-us h1{
+    color: #FF5A03;
+}
+
+.about-us p{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.why-choose {
+    margin-top: 3rem;
+}
+
+.why-choose h2{
+    text-align: center;
+    margin: 2rem;
+    color: #FF5A03;
+}
+
+
+
+
+.why-choose-us-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+}
+
+.left-wrapper img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.right-wrapper h3{
+    margin: 0 0 1rem;
+    color: #FF5A03;
+}
+
+.right-wrapper p{
+    font-size: 20px;
+}
+
+@media (max-width: 950px){
+    .about{
+        margin-top: 5rem;
+    }
+
+    .about-us p{
+        font-size: 18px;
+    }
+
+    .about-us h1{
+        font-size: 30px;
+    }
+
+    .why-choose-us-wrapper{
+        grid-template-columns: 1fr;
+    }
+
+    .right-wrapper p{
+        font-size: 18px;
+    }
+
+}
+
+
+
+@media (max-width: 600px){
+    .about-us p{
+        font-size: 15px;
+    }
+
+    .about-us h1{
+        font-size: 25px;
+    }
+
+
+    .right-wrapper p{
+        font-size: 15px;
+    }
+   
+}

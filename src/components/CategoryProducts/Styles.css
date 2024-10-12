@@ -1,0 +1,18 @@
+.categories-wrapper{
+    margin-top: 9rem;
+    
+}
+.categories-wrapper h2{
+    padding: 1rem 2rem;
+}
+/* .status{
+    display: none;
+} */
+
+
+@media (max-width: 900px){
+    .categories-wrapper{
+        margin-top: 5rem;
+        
+    }
+}
