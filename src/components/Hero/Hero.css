@@ -63,7 +63,7 @@
     
     .hero{
         height: fit-content;
-        padding: 10% 1rem 0 1rem;
+        padding: 3rem 1rem;
         margin: 5.2rem 1rem;
     }
     
@@ -78,9 +78,7 @@
     .hero-text p{
         font-size: 14px;
     }
-    .hero{
-        padding: 10% 5rem 10% 4rem;   
-    }
+
     .btn{
         font-size: 15px;
         font-weight: 500;
